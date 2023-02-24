@@ -12,5 +12,9 @@ int print_signe(int n)
 	{
 		_putchar ('+');
 		return (1);
-	}else if (n == 0)
+	}
+	else if (n == 0)
+	{
+		return (0);
+	}
 }
