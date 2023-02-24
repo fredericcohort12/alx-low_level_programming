@@ -5,9 +5,9 @@
  * Return: 1 if char is lowercase, otherwise 0.
  */
 
-int _islowe(int c)
+int _islowe (int c)
 {
-	if (c >= 'a' && c <= 'z')
+	if(c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
