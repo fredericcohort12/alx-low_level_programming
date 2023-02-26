@@ -1,20 +1,14 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * _isdigit - uppercase letters
- * @c: char to be checked
- *
- * Return: 0 or 1
+ * _isupper - a function that checks for uppercase character
+ * @c: input
+ * Return: 1 if c is uppercase, 0 otherwise
  */
-
-int _isdigit (int c)
+int _isupper(int c)
 {
-        if (c >= 'A' && c <= 'Z')
-	{
+	if ((c >= 'A') && (c <= 'Z'))
 		return (1);
-	}
-        else
-	{
-                return (0);
-	}
+	else
+		return (0);
 }
